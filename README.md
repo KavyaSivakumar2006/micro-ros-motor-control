@@ -18,9 +18,12 @@ into PWM signals for driving a differential-drive mobile robot.
 ```bash
 ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
 
-4.Send velocity commands from Nav2 or terminal
+4. Send velocity commands from Nav2 or terminal
 
-Related Project
+## Related Project
 
-High-level navigation stack:
+This firmware is part of a larger GPS-based autonomous navigation system
+implemented using ROS 2, Nav2, SLAM, and LiDAR.
+
+Main navigation repository:
 https://github.com/KavyaSivakumar2006/gps-based-autonomous-navigation
